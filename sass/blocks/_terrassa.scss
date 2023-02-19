@@ -1,0 +1,107 @@
+.terrasa {
+  padding: 80px 0 90px;
+  @media (max-width: 768px) {
+    padding: 50px 0 10px;
+  }
+  // .terrasa__wrapper
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1200px) {
+      flex-direction: column;
+    }
+  }
+
+  // .terrasa__list
+
+  &__list {
+    @media (max-width: 1200px) {
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+  }
+
+  // .terrasa__item
+
+  &__item {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+
+    p {
+      padding-bottom: 20px;
+    }
+  }
+
+  // .terrasa__date
+
+  &__date {
+    display: block;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  // .terrasa__dots
+
+  &__dots {
+    color: $textAcsent;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  // .terrasa__photoes
+
+  .photo {
+    max-width: 323px;
+  }
+
+  .terrasa {
+    // .terrasa__photoes
+
+    &__photoes {
+      margin-left: 35px;
+      position: relative;
+
+      @media (max-width: 1200px) {
+        margin: 0 auto;
+      }
+
+      @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+      }
+
+      // .terrasa__photoes_one
+
+      &_one {
+        
+
+        @media (max-width: 768px) {
+       max-width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+
+      // .terrasa__photoes_two
+
+      &_two {
+        margin-left: 22px;
+
+        @media (max-width: 768px) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.terrasa__about {
+  width: 50%;
+  margin-bottom: 40px;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}

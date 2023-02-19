@@ -1,0 +1,110 @@
+.contacts {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  @media (max-width: 767px) {
+     padding-bottom: 10px;
+  }
+  @media (max-width: 991px) {
+     padding-top: 10px;
+     padding-bottom: 20px;
+  }
+  @media (max-width: 1440px) {
+    padding-top: 20px;
+  }
+  &__list {
+     @media (max-width: 1140px) {
+        padding-bottom: 20px;
+     }   
+     @media (max-width: 991px) {
+        padding-bottom: 30px;
+     }   
+  }
+}
+.contacts__wrapper {
+  display: flex;
+  align-items: center;
+  @media (max-width: 991px) {
+     display: block; 
+  }
+}
+.contacts__info-map {
+  margin-right: 100px;
+  @media (max-width: 991px) {
+     margin-right: 0; 
+     margin-bottom: 30px;
+     iframe {
+        width: 100%;
+     }
+  }  
+}
+.contacts__info {
+  &-adress {
+     margin-bottom: 25px;
+     @media (max-width: 991px) {
+        margin-bottom: 20px;
+     }   
+  }
+}
+.contacts__title {
+  margin-bottom: 28px;
+}
+.contacts__info-list {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1140px) {
+     display: block;
+  }
+}
+// .contacts__item {
+//   display: flex;
+//   align-items: center;
+//   &:not(:last-child) {
+//      margin-bottom: 10px;
+//      @media (max-width: 991px) {
+//         margin-bottom: 20px; 
+//      }
+//   }
+//   &_phone::before {
+//      content: '';
+//      display: inline-block;
+//      margin-right: 10px;
+//      width: 22px;
+//      height: 22px;
+//      background: url('../../img/icons/footer-phone.svg') no-repeat;
+//   }
+//   &_email::before {
+//      content: '';
+//      display: inline-block;
+//      margin-right: 10px;
+//      width: 22px;
+//      height: 22px;
+//      background: url('../../img/icons/email.svg') no-repeat;
+//   }
+//   &_instagram::before {
+//      content: '';
+//      display: inline-block;
+//      margin-right: 10px;
+//      width: 22px;
+//      height: 22px;
+//      background: url('../../img/icons/instagram.svg') no-repeat;
+//   }
+//   a {
+//      font-size: 18px;
+//      color: #333333;
+//   }
+  
+// }
+.icon {
+  width: 50px;
+  height: 50px;
+}
+.contacts__list {
+  display: flex;
+}
+.contacts__item:not(:last-child) {
+  margin-right: 20px;
+}
+.contacts__text {
+  display: block;
+  margin-bottom: 30px;
+}

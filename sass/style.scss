@@ -1,0 +1,17 @@
+//base
+@import "./base/fonts";
+@import "./base/base";
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/mixins";
+
+//blocks
+
+@import "./blocks/header";
+@import "./blocks/terrassa";
+@import "./blocks/review";
+@import "./blocks/benefits";
+@import "./blocks/mobileMenu";
+@import "./blocks/questions";
+@import "./blocks/footer";
+@import "./blocks/contacts";

@@ -1,0 +1,18 @@
+@mixin button {
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 24px;
+   color: #FFFFFF;
+   background: $acsent;
+   padding: 38px 64px;
+   transition: all 0.5s ease;
+   @media (max-width: 576px) {
+      width: 100%;
+      margin-bottom: 40px;
+   }
+   &:hover {
+      background: #1F3284;
+      transition: all 0.5s ease;
+   }
+
+}

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Фитнес-клуб</title>
+   <meta name="description" content="Restaurant in Italy" />
+   <meta name="keywords" content="lunch, dinner, restaurant, food, healthy food" />
+   <!-- OG Tags -->
+   <meta property="og:title" content="Tzeezotje" />
+   <meta property="og:type" content="article" />
+   <meta property="og:site_name" content="Tzeezotje" />
+   <!-- Styling -->
+   <link rel="apple-touch-icon" href="img/apple-touch.svg" />
+   <link rel="icon" type="image/png" href="img/favicon.svg" />
+   <!-- CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/style.css" />
+   <!-- JS -->
+   <script src="js/slider.js" defer></script>
+   <script src="js/modal.js" defer></script>
+   <script src="js/form.js" defer></script>
+   <script src="js/menuMobile.js" defer></script>
+   <script src="js/accordion.js" defer></script>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container container-header">
+         <div class="header__menu">
+            <div class="header__logo logo">
+               <a href="#">
+                  <img src="img/logo.svg" alt="Logo" />
+               </a>
+            </div>
+            <div class="header__nav">
+               <nav class="menu">
+                  <ul class="menu__list">
+                     <li class="menu__item">
+                        <a href="#terrasa" class="menu__link">ОБО МНЕ</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#benefits" class="menu__link">УСЛУГИ</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#review" class="menu__link">ОТЗЫВЫ </a>
+                     </li>
+                     <!-- <li class="menu__item">
+                        <a href="#" class="menu__link">ГАЛЛЕРЕЯ </a>
+                     </li> -->
+                     <li class="menu__item">
+                        <a href="#contacts" class="menu__link">КОНТАКТЫ</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="header__phone">
+                  <a href="tel:+79241199939" class="phone"> +7 924 11 999 39 </a>
+               </div>
+            </div>
+            <div class="header__mobile menu__mobile">
+               <img class="menu__mobile_btn" src="img/menu.svg" alt="Menu" />
+            </div>
+         </div>
+         <div class="header__offer offer">
+            <!-- <span class="offer__text"> Будние дни 6:00 - 21:00</span> -->
+            <h1 class="title offer__title">
+               Фитнес студия <br> Анастасии Жестковой
+            </h1>
+            <span class="offer__text"> Полюбите себя настолько, чтобы вести здоровый образ жизни.
+            </span>
+            <div class="offer__info">
+               <img src="" alt="">
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <main>
+      <section class="terrasa" id="terrasa">
+         <div class="container">
+            <div class="terrasa__wrapper">
+               <div class="terrasa__about">
+                  Привет! Я сертифицированный персональный тренер по фитнесу (ту пару строк о себе)
+                  <br>
+                  <br>
+                  Тут пару предложений о себе, что занималась спортом , а теперь тренируешь сама, что твои спртсмены
+                  тебя вдоновляют и поэтому ты занимаешься те, чем занимаешься
+                  <br>
+                  <br>
+                  Тут еще пару предложений,а внизу должна быть твоя фотография (девушка для примера)
+                  <!-- <ul>
+                     <li> — Групповые занятия</li>
+                     <li> — Персональные тренировки</li>
+                     <li> — Занятия онлайн</li>
+                     <li> — Индивидуальные программы питания/тренировок</li>
+                     <li> — Тут можно продолжать список - писать что ты предлагаешь как тренер</li>
+                     <li> — Справа твое фото красивое</li>
+                  </ul> -->
+
+               </div>
+               <div class="terrasa__photoes">
+                  <img class="photo terrasa__photoes_one" src="img/you.jpg" alt="Terrasa" />
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section class="benefits" id="benefits">
+         <div class="container">
+            <div class="benefits__cards">
+               <div class="benefits__cards_item">
+                  <img src="img/icon1.png" alt="Benefit-1">
+                  <h3>
+                     Индивидуальные тренировки
+                  </h3>
+                  <p>
+                     Тут идет текст, описывающий как проходят индивидуальные тренировки
+                  </p>
+               </div>
+
+               <div class="benefits__cards_item">
+                  <img src="img/icon1.png" alt="Benefit-2">
+                  <h3>
+                     Групповые тренировки
+                  </h3>
+                  <p>
+                     Тут идет другой интересный текст, описывающий как проходят групповые тренировки
+                  </p>
+               </div>
+
+               <div class="benefits__cards_item">
+                  <img src="img/icon1.png" alt="Benefit-3">
+                  <h3>
+                     Онлайн тренировки
+                  </h3>
+                  <p>
+                     A тут идет текст, описывающий как проходят онлайн тренировки либо что-то еще
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="review" id="review">
+         <div class="container">
+            <span class="review__quota"></span>
+            <div class="review__wrapper swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="review__card swiper-slide">
+                     <!-- <h3 class="review__title">
+                        Главная мысль отзыва
+                     </h3> -->
+                     <p class="review__text">
+                        Это секция отзывов, например таких:Занимаюсь с тренером Анастасией уже давно. Заниматься начала
+                        после беременности, чтоб похудеть и
+                        подтянуть кожу. В результате втянулась вот уже 3 года занимаюсь в студии Анастасии Жестковой.
+                        Тут должны быть
+                        реальные отзывы клиенток (мотай пальцем вправо, чтоб пролистать слайд отзывов)
+                     </p>
+                     <span class="review__name">Маша Иванова </span>
+                  </div>
+                  <div class="review__card swiper-slide">
+                     <!-- <h3 class="review__title">
+                        Тут может быть либо фотография клиента либо главная мысль отзыва
+                     </h3> -->
+                     <p class="review__text">
+                        Занимаюсь с тренером Анастасией уже давно. Заниматься начала после беременности, чтоб похудеть и
+                        подтянуть кожу. В результате втянулась вот уже 3 года занимаюсь в студии Анастасии Жестковой.
+                        Тут должны быть
+                        реальные отзывы клиенток, и слайдом они будут перелистываться.
+                     </p>
+                     <span class="review__name">Саша Петрова </span>
+                  </div>
+                  <div class="review__card swiper-slide">
+                     <!-- <h3 class="review__title">
+                        Тут может быть либо фотография клиента либо главная мысль отзыва
+                     </h3> -->
+                     <p class="review__text">
+                        Занимаюсь с тренером Анастасией уже давно. Заниматься начала после беременности, чтоб похудеть и
+                        подтянуть кожу. В результате втянулась вот уже 3 года занимаюсь в студии Анастасии Жестковой.
+                        Тут должны быть
+                        реальные отзывы клиенток, и слайдом они будут перелистываться.
+                     </p>
+                     <span class="review__name">Иван Петров</span>
+                  </div>
+               </div>
+               <div class="swiper-button-next button-next"></div>
+               <div class="swiper-button-prev button-prev"></div>
+            </div>
+         </div>
+      </section>
+
+      <section class="questions">
+         <div class="container">
+            <h2>Часто задаваемые вопросы</h2>
+            <div class="questions-btns">
+               <button class="accordion">Я никогда не занималась спортом, справлюсь ли я с нагрузкой?</button>
+               <div class="panel">
+                  <p>Тут ответ, подкрепленный примером, например да у меня есть спортсмены которые начали заниматься
+                     спортом со мной впервые. и тд</p>
+               </div>
+               <button class="accordion">Я неуверена, что мне понравится подход тренировок, есть ли пробное
+                  занятие?</button>
+               <div class="panel">
+                  <p>Тут ответ, подкрепленный примером, например да, вы можете попробовать пробное задание</p>
+               </div>
+               <button class="accordion">В случае вашего или моего отпуска, остаемся ли мы на связи?</button>
+               <div class="panel">
+                  <p>Тут ответ, подкрепленный примером, например да, я всегда остаюсь на связи тд</p>
+               </div>
+               <button class="accordion">Тут другой любой вопрос, которые чаще всегозадают люди?</button>
+               <div class="panel">
+                  <p>Тут ответ, отвечающий на вопрос</p>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+         <div class="container">
+            <div class="contacts__wrapper">
+               <div class="contacts__info-map">
+                  <iframe
+                     src="https://yandex.ru/map-widget/v1/?um=constructor%3A09eef2674c009c4f00df6896f292556d8761a840ee7601ff218f368194d141fa&amp;source=constructor"
+                     width="580" height="430" frameborder="0"></iframe>
+               </div>
+               <div class="contacts__info">
+                  <!-- <h4 class="contacts__title ">Контакты</h4> -->
+                  <p class="contacts__info-adress">
+                     ул. Владивостокская, здание 5, Владивосток (тут надо указать реальный адрес и на карте тоже
+                     реальный адрес будет)
+                  </p>
+                  <div class="contacts__info-list">
+                     <span class="contacts__text">Остались вопросы? Напиши мне:
+                     </span>
+                     <ul class="contacts__list">
+
+                        <!-- <li class="contacts__item contacts__item_email"><a
+                              href="emailto:info@nuramm.kz">info@nuramm.kz</a>
+                        </li> -->
+                        <li class="contacts__item contacts__item_instagram"><a href="https://wa.me/79241199939">
+                              <img src="img/whatsapp.svg" class="icon" alt="">
+                           </a></li>
+                        <li class="contacts__item contacts__item_instagram"><a href="https://wa.me/79241199939">
+                              <img src="img/telegram.svg" class="icon" alt="">
+                           </a></li>
+                        <li class="contacts__item contacts__item_instagram"><a href="https://wa.me/79241199939">
+                              <img src="img/instagram.svg" class="icon" alt="">
+                           </a></li>
+                     </ul>
+                     <!-- <div class="qr">
+                        <img src="img/icons/qr.svg" alt="Whatsapp">
+                     </div> -->
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <!-- <footer class="footer">
+         <div class="container">
+            <div class="footer-wrapper">
+               <div class="logo">
+                  <a href="#">
+                     <img src="img/logo.svg" alt="Logo">
+                  </a>
+                  <p>
+                     The last landing page you'll ever need to launch your next course.
+                  </p>
+               </div>
+               <nav class="site">
+                  <h5>Site</h5>
+                  <ul>
+                     <li>
+                        <a href="#">Home</a>
+                     </li>
+                     <li>
+                        <a href="#">Contact</a>
+                     </li>
+                     <li>
+                        <a href="#">FAQs</a>
+                     </li>
+                     <li>
+                        <a href="#">Terms & Conditions</a>
+                     </li>
+                     <li>
+                        <a href="#">Privacy Policy</a>
+                     </li>
+                  </ul>
+               </nav>
+               <nav class="admin">
+                  <h5>Admin</h5>
+                  <ul>
+                     <li>
+                        <a href="#">Style Guide</a>
+                     </li>
+                     <li>
+                        <a href="#">Licenses</a>
+                     </li>
+                     <li>
+                        <a href="#">Instructions</a>
+                     </li>
+                     <li>
+                        <a href="#">Password</a>
+                     </li>
+                     <li>
+                        <a href="#">404</a>
+                     </li>
+                  </ul>
+               </nav>
+
+
+            </div>
+      </footer> -->
+   </main>
+
+
+
+   <!-- mobile-menu -->
+   <div class="mobile">
+      <a class="close-btn" href="#close">&times;</a>
+      <div class="mobile__wrapper">
+         <ul class="mobile__list">
+            <li class="mobile__item">
+               <a href="#terrasa" class="mobile__link">ОБО МНЕ</a>
+            </li>
+            <li class="mobile__item">
+               <a href="#benefits" class="mobile__link">УСЛУГИ</a>
+            </li>
+            <li class="mobile__item">
+               <a href="#review" class="mobile__link">ОТЗЫВЫ </a>
+            </li>
+            <li class="mobile__item">
+               <a href="#contacts" class="mobile__link">КОНТАКТЫ</a>
+            </li>
+         </ul>
+         <!-- <a href="tel:+79241199939" class="mobile__phone phone">
+            +7 924 11 999 39
+         </a> -->
+         <!-- <ul class="offer__info_contacts">
+            <li class="mobile__info_item offer__info_item">
+               <a href="#" class="mobile__info_link offer__info_link">Fb</a>
+            </li>
+            <li class="mobile__info_item offer__info_item">
+               <a href="#" class="mobile__info_link offer__info_link">Ig</a>
+            </li>
+            <li class="mobile__info_item offer__info_item">
+               <a href="#" class="mobile__info_link offer__info_link">Tw </a>
+            </li>
+            <li class="mobile__info_item offer__info_item">
+               <a href="#" class="mobile__info_link offer__info_link">Yt</a>
+            </li>
+         </ul> -->
+      </div>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>
